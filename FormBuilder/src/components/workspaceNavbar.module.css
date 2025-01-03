@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 200px;
+  }
+  
+  .title select {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    outline: none;
+    cursor: pointer;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+  
+  .themeToggle label {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  .themeToggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggleSwitch {
+    width: 32px;
+    height: 16px;
+    background-color: #1A5FFF;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .toggleSwitch::after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 3px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: left 0.3s;
+  }
+  
+  input[type='checkbox']:checked+.toggleSwitch::after {
+    left: 18px;
+  }
+  
+  .shareButton {
+    background-color: #1A5FFF;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }

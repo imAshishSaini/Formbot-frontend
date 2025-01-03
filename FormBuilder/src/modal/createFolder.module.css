@@ -1,0 +1,88 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    width: 400px;
+    background-color: #18181B;
+    border-radius: 10px;
+    padding: 25px 20px;
+    border: 1px solid #47474A;
+    text-align: center;
+}
+
+.createFolderHeader {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #1F1F23;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 15px;
+
+}
+
+.input::placeholder {
+    color: #A1A1A14F;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.doneBtn {
+    background-color: transparent;
+    color: #4B83FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.doneBtn:hover {
+    color: #0753f6;
+}
+
+.cancelBtn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cancelBtn:hover {
+    color: #d1cdcd;
+}
+
+.divider {
+    height: 20px;
+    width: 1px;
+    background-color: #47474A;
+}

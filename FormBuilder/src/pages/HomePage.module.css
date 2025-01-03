@@ -1,0 +1,85 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #0b1120;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Header Section */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1f2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navButton {
+    background-color: transparent;
+    color: #7EA6FF;
+    border: 1px solid #7EA6FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.primaryButton {
+    background-color: #1A5FFF;
+    border: none;
+    color: #fff;
+}
+
+.homeDeco {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 25%;
+    height: auto;
+    z-index: -1; /* Place behind other content */
+}
+
+.homeDeco1 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 25%;
+    height: auto;
+    z-index: -1; /* Place behind other content */
+}

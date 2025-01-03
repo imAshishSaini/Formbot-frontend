@@ -1,0 +1,67 @@
+.responseSection {
+    width: 100%;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .dark {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .statsSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .statCard {
+    flex: 1;
+    margin: 0 10px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .dark .statCard {
+    background: #1e1e1e;
+  }
+  
+  .responseTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .responseTable th,
+  .responseTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .responseTable th {
+    background: #f4f4f4;
+  }
+  
+  .dark .responseTable th {
+    background: #1e1e1e;
+  }
+  
+  .chartSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .chartLabel {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .chartLabel p {
+    margin: 0;
+  }
+  

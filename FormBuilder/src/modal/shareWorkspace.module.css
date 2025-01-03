@@ -1,0 +1,88 @@
+.shareWorkspace {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal {
+    background-color: #18181B;
+    padding: 40px 20px;
+    border-radius: 20px;
+    width: 600px;
+    color: #fff;
+    position: relative;
+    box-shadow: 0px 0px 3.8px 0px #FFFFFF40;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #F55050;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shareHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.inputGroup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    flex: 1;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1F1F23;
+    color: #fff;
+}
+
+.inputField::placeholder {
+    color: #A1A1A14F;
+}
+
+.permissionDropdown {
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #1F1F23;
+    color: #fff;
+}
+
+.sendButton,
+.copyLinkButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A5FFF;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0px 4px 10px 0px #E9444B40;
+}
+
+.sendButton:hover,
+.copyLinkButton:hover {
+    background-color: #5588fd;
+}

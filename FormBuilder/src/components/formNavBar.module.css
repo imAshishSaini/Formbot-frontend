@@ -1,0 +1,148 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #18181B;
+    border-bottom: 2px solid #353537;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    color: #FFFFFFEB;
+}
+
+.light {
+    background-color: #ffffff;
+    border-bottom: 2px solid #FFFFFF29;
+}
+
+.formName {
+    width: 340px;
+    padding-left: 25px;
+}
+
+.formNameInput {
+    width: 200px;
+    padding: 8px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #27272A;
+    border-radius: 5px;
+    background-color: #37373E;
+    color: #767676D1;
+}
+
+.light .formNameInput {
+    border: 1px solid #D6D6D6;
+    background-color: #ffffff;
+    color: #767676D1;
+}
+
+.tabs {
+    display: flex;
+    gap: 15px;
+}
+
+.tabButton {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFFFFFEB;
+}
+
+.light .tabButton {
+    color: #000000EB;
+}
+
+.tabButton:hover {
+    color: #7EA6FF;
+}
+
+.activeTab {
+    background-color: transparent;
+    color: #7EA6FF;
+    border: 1px solid #7EA6FF;
+}
+
+.light .activeTab {
+    border: 1px solid #7EA6FF;
+    color: #7EA6FF;
+}
+
+.actionSection {
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.themeToggle {
+    display: flex;
+    align-items: center;
+}
+
+.themeToggle label {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .light .themeToggle label {
+    color: #000000EB;
+  }
+  
+  .themeToggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggleSwitch {
+    width: 32px;
+    height: 16px;
+    background-color: #1A5FFF;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .light .toggleSwitch {
+    background-color: #B1B1B1;
+  }
+  
+  .toggleSwitch::after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 3px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: left 0.3s;
+  }
+  
+  input[type='checkbox']:checked+.toggleSwitch::after {
+    left: 18px;
+  }
+
+.shareButton {
+    background-color: #1A5FFF;
+    border-radius: 4px;
+    padding: 5px 12px;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
+
+.saveButton {
+    background-color: #4ADE80CC;
+    border-radius: 4px;
+    padding: 5px 12px;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}

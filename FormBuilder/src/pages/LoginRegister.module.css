@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.loginRegContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(0deg, #121212, #121212),
+                linear-gradient(0deg, #18181B, #18181B);
+}
+
+.triangle {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    /* transform: rotate(21.45deg); */
+    /* height: 300px; */
+    /* width: 300px; */
+    object-fit: cover;
+    z-index: 1;
+}
+
+.circle1 {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    /* height: 200px; */
+    /* width: 200px; */
+    /* border-radius: 50%; */
+    /* background-color: #FFB6C1; */
+    z-index: 1;
+}
+
+.circle2 {
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    /* height: 250px; */
+    /* width: 250px; */
+    /* border-radius: 50%; */
+    /* background-color: #FFD700; */
+    z-index: 1;
+}

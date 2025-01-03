@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.workspaceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.dark {
+  background: linear-gradient(0deg, #121212, #121212),
+    linear-gradient(0deg, #18181B, #18181B);
+  color: #f9f9f9;
+}
+
+.gridContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.gridContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.folders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.createFolderButton {
+  width: 150px;
+  height: 40px;
+  background-color: #252526;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.folderGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.folder {
+  background-color: #FFFFFF14;
+  color: #f9f9f9;
+  display: flex;
+  gap: 10px;
+}
+
+.selectedFolder {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.selectedFolder .folderLabel {
+  color: #121212;
+}
+
+.folderLabel {
+  font-size: 0.9rem;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.createFormButton {
+  width: 160px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #1A5FFF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.createFormButton h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.botGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  width: 160px;
+  height: 190px;
+}
+
+.typebot {
+  background-color: #FFFFFF80;
+  color: #fff;
+  cursor: pointer;
+}
+
+.deleteForm {
+  position: absolute;
+  top: -6%;
+  right: -3%;
+}

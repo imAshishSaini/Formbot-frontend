@@ -1,0 +1,89 @@
+.registerForm {
+    z-index: 2;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgba(24, 24, 27, 0)
+}
+
+.registerForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.registerForm p {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.registerForm input {
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #121212;
+    color: #fff;
+    font-size: 14px;
+}
+
+.signupButton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1A5FFF;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signupButton:hover {
+    background-color: #2563EB;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.6);
+}
+
+.googleButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 8px;
+    background-color: #1A5FFF;
+    color: #fff;
+    border-radius: 10px;    
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.googleButton:hover {
+    background-color: #2563EB;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.6);
+}
+
+.googleButton img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.loginText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.loginLink {
+    color: #3B82F6;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
